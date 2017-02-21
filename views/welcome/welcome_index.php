@@ -5,8 +5,11 @@
         <input type="text" id="datepicker">
     </div>
 
-    <script src="\assets\components\pickaday\pikaday.js"></script>
-    <link rel="stylesheet" href="\assets\components\pickaday\css\pikaday.css">
+    <script src="assets\components\pickaday\pikaday.js"></script>
+    <script>
+        var picker = new Pikaday({ field: document.getElementById('datepicker') });
+    </script>
+    <link rel="stylesheet" href="assets\components\pickaday\css\pikaday.css">
 
 
 
